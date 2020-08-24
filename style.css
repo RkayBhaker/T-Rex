@@ -1,0 +1,79 @@
+body, .container{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    height: 90%;
+    width: 100%;
+}
+header{
+    font-size: 50px;
+    color: chocolate;
+    text-shadow: 0px 2px 2px aqua,
+        1px 3px 2px blue;
+    font-family: serif;
+    font-style: italic;
+}
+.runner{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-image: url(t-rex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+.ObstacleClass{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-image: url(cacti.png);
+    background-size: cover;
+    bottom: 0;
+}
+.grid{
+    margin-left: 40px;
+    text-align: center;
+    position: absolute;
+    height: 30vw;
+    width: 75vw;
+    border: 15px groove aqua;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-image: url(t-rex-background.png);
+    padding: 50px 10px;
+    font-family: 'Stencil';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    color: chocolate;
+}
+#startAgain{
+    display: none;
+    position: absolute;
+    transform: translate(490%, 650%);
+    background-color: brown;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+#startAgain:hover{
+    text-decoration: none;
+    background-color: bisque;
+    color: brown;
+    border: none;
+}
+#score, label{
+    font-family: 'Segoe Print';
+    font-style: italic;
+    font-size: 30px;
+    color: blue;
+    word-spacing: 15px;
+}
+footer{
+    
+}
