@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <title>Runner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="application/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>T-Rex</header>
+            <div id="alert"></div>
+            <label>Score : <span id="score">0</span></label>
+            <div class="grid">
+                <div id="backimg"></div>
+                <div class="runner"> </div>
+            </div>
+        <a href="" id="startAgain" onclick="window.load()">Start Again</a>        
+        <div onclick= 'soundPlay("Tab")'>
+            <audio id="Tab" src="button-33a.mp3" autostart="false"></audio>
+        </div>
+        <div onclick='soundPlay("GmOver")'>
+            <audio id="GmOver" src="beep-03.mp3" autostart="false"></audio>
+        </div>
+        <footer>
+            <ol>
+                <li>T-Rex&nbsp;&nbsp; |&nbsp; &nbsp; <a href="https://github.com/RkayBhaker">DEVELOPER</a></li>
+                <li>Support</li>
+                <li>Help</li>
+            </ol>
+        </footer>
+        </div>
+    </body>
+</html>
